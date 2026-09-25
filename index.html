@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turkish Vocab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS-->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <!-- Javacsript-->
+        <script src="functions.js"></script>
+    </head>
+    <body onload="arrangeWords(words), checkPair()">
+        <h1>Turkish Vocab</h1>
+        <div id="card-container">
+            <div class="card" onclick="selectCard(this.id)" id="1">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="2">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="3">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="4">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="5">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="6">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="7">
+                <h3>word</h3>
+            </div>
+            <div class="card" onclick="selectCard(this.id)" id="8">
+                <h3>word</h3>
+            </div>
+        </div>
+
+        <h2 id="score">Score: 0</h2>
+        <!-- For testing-->
+        <div id="results"></div>
+
+        <footer></footer>
+    </body>
+</html>
